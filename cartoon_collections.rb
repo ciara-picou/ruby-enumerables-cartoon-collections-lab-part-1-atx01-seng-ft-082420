@@ -11,7 +11,9 @@ def list_dwarves(array)
   # Use `each_with_index` to enumerate over the provided array
   #
   # Print a numbered list of each element
-  
+  array.each_with_index { |index, element|
+  p "#{index + 1}". element
+}
 end
 each_with_index(*args) { |obj, i| block } → enumclick to toggle source
 each_with_index(*args) → an_enumerator
